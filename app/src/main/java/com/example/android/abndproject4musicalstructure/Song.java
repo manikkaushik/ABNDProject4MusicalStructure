@@ -8,11 +8,6 @@ public class Song {
 
     private int mImageResourceId;
 
-    public Song(String Nameofartist , String Nameofsong) {
-        Artist = Nameofartist;
-        SongName = Nameofsong;
-    }
-
 
     public Song(String Nameofartist, String Nameofsong, int imageResourceId) {
         Artist = Nameofartist;

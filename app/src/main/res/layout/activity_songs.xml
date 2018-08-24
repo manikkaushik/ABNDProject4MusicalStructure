@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Songs">
     <ListView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -11,5 +12,11 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+android:background="@drawable/artists"
+        android:onClick="show_artists"
+       />
 
 </android.support.constraint.ConstraintLayout>

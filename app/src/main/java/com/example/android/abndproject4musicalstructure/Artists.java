@@ -1,7 +1,9 @@
 package com.example.android.abndproject4musicalstructure;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -29,5 +31,9 @@ public class Artists extends AppCompatActivity {
                 new ArtistAdapter(this, artists);
         ListView listView = (ListView) findViewById(R.id.artists_list);
         listView.setAdapter(adapter);
+    }
+    public void show_songs (View view){
+        Intent Intent = new Intent(Artists.this, Songs.class);
+        startActivity(Intent);
     }
 }

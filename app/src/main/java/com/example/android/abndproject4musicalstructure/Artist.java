@@ -7,10 +7,7 @@ public class Artist {
 
     private int mImageResourceId;
 
-    public Artist(String Nameofartist , String Nameofsong) {
-        Artist = Nameofartist;
-        SongName = Nameofsong;
-    }
+
     public Artist(String Nameofartist, String Nameofsong, int imageResourceId) {
         Artist = Nameofartist;
         SongName = Nameofsong;
