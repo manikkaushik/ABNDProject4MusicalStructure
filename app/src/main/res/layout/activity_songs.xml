@@ -6,17 +6,22 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Songs">
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <ListView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/songs_list"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        />
     <Button
+        android:layout_alignParentTop="true"
         android:layout_width="40dp"
         android:layout_height="40dp"
-android:background="@drawable/artists"
+        android:background="@drawable/artists"
         android:onClick="show_artists"
        />
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
